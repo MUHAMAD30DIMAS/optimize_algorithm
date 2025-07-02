@@ -1,4 +1,5 @@
 import numpy as np
+from optimize_algorithm import PSO
 
 def rastrigin(x):
 
@@ -21,6 +22,14 @@ def rastrigin(x):
     float: The calculated value of the Rastrigin function for the input array.
     """
 
-    x = np.array(x)
-    n = x.size
-    return 10 * n + np.sum(x**2 - 10 * np.cos(2 * np.pi * x))
+
+    return 10 * len(x) + sum(xi**2 - 10 * np.cos(2 * np.pi * xi) for xi in x)
+
+bounds = [(-5.12, 5.12)] * 2
+
+pso = PSO(func=rastrigin, dim=2, bounds=bounds, iterations=50)
+pso.optimize()
+
+print("Best Solution:", pso.gbest_position)
+print("Best Fitness:", pso.gbest_value)
+pso.plot_convergence()
