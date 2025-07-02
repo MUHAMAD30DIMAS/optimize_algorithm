@@ -20,7 +20,7 @@ pip install optimize-algorithm
 ### Usage
 
 Particle Swarm Optimization (PSO):
-```
+```python
 from optimize_algorithm import PSO
 
 #Define your objective function
@@ -34,7 +34,7 @@ print("Best score:", best_score)
 
 ```
 Artificial Bee Colony (ABC):
-```
+```python
 from optimize_algorithm import ABC
 
 abc = ABC(objective_func=rastrigin, n_bees=30, n_iterations=100, dim=2)
@@ -43,9 +43,9 @@ print("Best position:", best_pos)
 print("Best score:", best_score)
 ```
 ### Documentation
-- How PSO Works [Particle Swarm Optimization]([wikipedia](https://en.wikipedia.org/wiki/Particle_swarm_optimization))
+- How PSO Works [Particle Swarm Optimization](https://en.wikipedia.org/wiki/Particle_swarm_optimization)
 
-- How ABC Works [Artificial Bee Colony]([wikipedia](https://en.wikipedia.org/wiki/Artificial_bee_colony_algorithm))
+- How ABC Works [Artificial Bee Colony](https://en.wikipedia.org/wiki/Artificial_bee_colony_algorithm)
   
 ### Contributing
 Pull requests are welcome! Please see CONTRIBUTING.md.
