@@ -43,9 +43,9 @@ print("Best position:", best_pos)
 print("Best score:", best_score)
 ```
 ### Documentation
-- How PSO Works [Particle Swarm Optimization](wikipedia)
+- How PSO Works [Particle Swarm Optimization]([wikipedia](https://en.wikipedia.org/wiki/Particle_swarm_optimization))
 
-- How ABC Works [Artificial Bee Colony](wikipedia)
+- How ABC Works [Artificial Bee Colony]([wikipedia](https://en.wikipedia.org/wiki/Artificial_bee_colony_algorithm))
   
 ### Contributing
 Pull requests are welcome! Please see CONTRIBUTING.md.
