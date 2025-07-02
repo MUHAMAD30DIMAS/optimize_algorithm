@@ -43,14 +43,14 @@ print("Best position:", best_pos)
 print("Best score:", best_score)
 ```
 ### Documentation
-- How PSO Works
+- How PSO Works [Particle Swarm Optimization](wikipedia)
 
-- How ABC Works
-
+- How ABC Works [Artificial Bee Colony](wikipedia)
+  
 ### Contributing
 Pull requests are welcome! Please see CONTRIBUTING.md.
 
 ### License
-MIT
+This project is licensed under the [MIT](LICENSE) license.
 
 
