@@ -16,13 +16,14 @@ A Python package for solving optimization problems using two heuristic algorithm
 
 ```bash
 pip install optimize-algorithm
+```
+### Usage
 
-Usage
 Particle Swarm Optimization (PSO):
 ```
 from optimize_algorithm import PSO
 
-# Define your objective function
+#Define your objective function
 def rastrigin(x):
     return 10*len(x) + sum([xi**2 - 10 * np.cos(2 * np.pi * xi) for xi in x])
 
@@ -31,7 +32,7 @@ best_pos, best_score = pso.optimize()
 print("Best position:", best_pos)
 print("Best score:", best_score)
 
-
+```
 Artificial Bee Colony (ABC):
 ```
 from optimize_algorithm import ABC
